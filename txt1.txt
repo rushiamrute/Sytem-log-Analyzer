@@ -1,0 +1,54 @@
+🖥️ Operating System: Windows
+🧑‍💻 User Accounts Found: 5
+⚙️  Services Detected: 303
+📄 Total Log Entries Scanned: 10
+⚠️ Suspicious Logs Detected: 0
+
+
+👥  Users:
+   - Administrator
+   - DefaultAccount
+   - Guest
+   - rushi
+   - WDAGUtilityAccount
+
+🗃️ Logs:
+   - Service Control Manager: ('Background Intelligent Transfer Service', 'auto start', 'demand start', 'BITS')
+   - Service Control Manager: ('Background Intelligent Transfer Service', 'demand start', 'auto start', 'BITS')
+   - Microsoft-Windows-Kernel-Power: ('true', '6509', '35294')
+   - Service Control Manager: ('Background Intelligent Transfer Service', 'auto start', 'demand start', 'BITS')
+   - Service Control Manager: ('Background Intelligent Transfer Service', 'demand start', 'auto start', 'BITS')
+
+🔌 Services and Network Connections:
+   - Service: python.exe                Protocol: TCP  Port: 51474 Local: 127.0.0.1:51474        Remote: 127.0.0.1:51475        Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: chrome.exe                Protocol: TCP  Port: 60174 Local: 192.168.10.39:60174    Remote: 142.250.70.106:443     Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: lsass.exe                 Protocol: TCP  Port: 49664 Local: :::49664               Remote: N/A                    Status: LISTEN       IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: python.exe                Protocol: TCP  Port: 63661 Local: 127.0.0.1:63661        Remote: 127.0.0.1:63662        Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: Code.exe                  Protocol: TCP  Port: 63665 Local: 127.0.0.1:63665        Remote: 127.0.0.1:9006         Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: python.exe                Protocol: TCP  Port: 51443 Local: 127.0.0.1:51443        Remote: 127.0.0.1:51442        Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: python.exe                Protocol: TCP  Port: 63671 Local: 127.0.0.1:63671        Remote: 127.0.0.1:63672        Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: python.exe                Protocol: TCP  Port: 51452 Local: 127.0.0.1:51452        Remote: 127.0.0.1:51453        Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: language_server_windows_x64.exe Protocol: TCP  Port: 54437 Local: 192.168.10.39:54437    Remote: 35.223.238.178:443     Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: GoogleDriveFS.exe         Protocol: TCP  Port: 55919 Local: 192.168.10.39:55919    Remote: 216.239.38.223:443     Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: language_server_windows_x64.exe Protocol: TCP  Port: 51498 Local: 127.0.0.1:51498        Remote: 127.0.0.1:51520        Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: svchost.exe               Protocol: TCP  Port: 135   Local: 0.0.0.0:135            Remote: N/A                    Status: LISTEN       IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: svchost.exe               Protocol: UDP  Port: 5353  Local: :::5353                Remote: N/A                    Status: NONE         IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: python.exe                Protocol: TCP  Port: 51465 Local: 127.0.0.1:51465        Remote: 127.0.0.1:51464        Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: mysqld.exe                Protocol: TCP  Port: 3306  Local: :::3306                Remote: N/A                    Status: LISTEN       IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: python.exe                Protocol: TCP  Port: 51453 Local: 127.0.0.1:51453        Remote: 127.0.0.1:51452        Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: python.exe                Protocol: TCP  Port: 9004  Local: 127.0.0.1:9004         Remote: N/A                    Status: LISTEN       IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: python.exe                Protocol: TCP  Port: 63648 Local: 127.0.0.1:63648        Remote: N/A                    Status: LISTEN       IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: svchost.exe               Protocol: UDP  Port: 61505 Local: :::61505               Remote: N/A                    Status: NONE         IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: python.exe                Protocol: TCP  Port: 63634 Local: 127.0.0.1:63634        Remote: 127.0.0.1:63635        Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: mDNSResponder.exe         Protocol: UDP  Port: 49667 Local: :::49667               Remote: N/A                    Status: NONE         IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: python.exe                Protocol: TCP  Port: 9004  Local: 127.0.0.1:9004         Remote: 127.0.0.1:51482        Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: python.exe                Protocol: TCP  Port: 51445 Local: 127.0.0.1:51445        Remote: 127.0.0.1:51444        Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: expressvpnd.exe           Protocol: TCP  Port: 50990 Local: 127.0.0.1:50990        Remote: 127.0.0.1:50988        Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: svchost.exe               Protocol: TCP  Port: 49667 Local: :::49667               Remote: N/A                    Status: LISTEN       IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: Code.exe                  Protocol: TCP  Port: 51547 Local: 127.0.0.1:51547        Remote: 127.0.0.1:51522        Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: chrome.exe                Protocol: TCP  Port: 58146 Local: 192.168.10.39:58146    Remote: 18.172.64.66:443       Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: python.exe                Protocol: TCP  Port: 9007  Local: 127.0.0.1:9007         Remote: 127.0.0.1:63638        Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: language_server_windows_x64.exe Protocol: TCP  Port: 54466 Local: 192.168.10.39:54466    Remote: 35.223.238.178:443     Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+   - Service: python.exe                Protocol: TCP  Port: 51456 Local: 127.0.0.1:51456        Remote: 127.0.0.1:51455        Status: ESTABLISHED  IP: 192.168.10.39  Subnet: 255.255.255.0
+
+✅ No suspicious log activity found.

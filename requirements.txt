@@ -1,0 +1,4 @@
+psutil
+scikit-learn
+numpy
+tkinter
